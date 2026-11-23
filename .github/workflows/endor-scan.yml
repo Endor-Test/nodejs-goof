@@ -20,7 +20,7 @@ jobs:
       - run: npm install
       - uses: endorlabs/github-action@b8992820cc4d9c9e7ded5022adf6cabe2dc11946 # v1.1.12
         with:
-          namespace: 'rm-onboarding'
+          namespace: 'endor-solutions-rmachado.rm-onboarding'
           api_key: ${{ secrets.ENDOR_API_CREDENTIALS_KEY }}
           api_secret: ${{ secrets.ENDOR_API_CREDENTIALS_SECRET }}
           enable_github_action_token: false
